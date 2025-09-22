@@ -910,3 +910,4 @@ zstandard==0.23.0
     # via
     #   -c requirements/base.txt
     #   flask-compress
+pydoris==1.0.0
