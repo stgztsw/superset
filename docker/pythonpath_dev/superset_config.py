@@ -54,6 +54,11 @@ SQLALCHEMY_EXAMPLES_URI = (
     f"{EXAMPLES_HOST}:{EXAMPLES_PORT}/{EXAMPLES_DB}"
 )
 
+LANGUAGES = {
+    "en": {"flag": "us", "name": "English"},
+    "zh": {"flag": "cn", "name": "Chinese"}
+}
+
 REDIS_HOST = os.getenv("REDIS_HOST", "redis")
 REDIS_PORT = os.getenv("REDIS_PORT", "6379")
 REDIS_CELERY_DB = os.getenv("REDIS_CELERY_DB", "0")
