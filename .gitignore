@@ -113,3 +113,4 @@ docker/requirements-local.txt
 
 cache/
 superset-frontend/.temp_cache/*
+.ven/*
